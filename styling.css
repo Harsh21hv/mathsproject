@@ -1,0 +1,175 @@
+
+#container {
+    width: 1100px ;
+    border: 1px solid grey;
+    margin: 0 auto;
+    border: none;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861bbf;
+    text-decoration: none;
+}
+#header{
+    height: 100px;
+    padding: 10px 0px;
+}
+#brand{
+    float: left;
+}
+
+#searchbox{
+    float: right;
+   background: -webkit-linear-gradient(#e4f289,#B7e953);
+   background: -o-linear-gradient(#e4f289,#B7e953);
+   background: linear-gradient(#e4f289,#B7e953);
+   background: -moz-linear-gradient(#e4f289,#B7e953);
+   width: 400px;
+   height: 50px;
+   padding: 20px 20px 0px 20px;
+   margin-top: 20px;
+
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: coral;
+    background: white url(image1.png) right no-repeat;
+}
+.submit{
+    float: right;
+    background: #861bbf;
+    color: aliceblue;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#F3E659,#545504);
+    background: -webkit-linear-gradient(#F3E659,#545504);
+    background: -o-linear-gradient(#F3E659,#545504);
+    background: -moz-linear-gradient(#F3E659,#545504);
+    padding: 7px;
+}
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid black;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
+    transition: font-size 0.07s ease;
+   -moz-transition: font-size 0.07s ease;
+    -webkit-transition: font-size 0.07s ease;
+    -o-transition: font-size 0.07s ease;
+    -ms-transition: font-size 0.07s ease;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#introduction{
+    background: linear-gradient(white,#FDF7E2);
+    padding: 30px;
+    margin: 20px 0px;
+}
+#introduction h3{
+    font-size: 45px;
+    color: #C76A28;
+    font-weight: normal;
+}
+#introduction p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+.sidebar h4{
+    color: #FD784E;
+    font-size: 35px;
+}
+.sidebar h5{
+    color: #FD784E;
+    font-size: 35px;
+
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: darkblue;
+}
+
+
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
+
+#leftsidebar ul li{
+    padding: 4px;
+    padding-left: 5px;
+    list-style-image: url(image2.png);
+}
+#rightsidebar ul li{
+    padding: 10px;
+    list-style-image: url(image2.png);
+    
+}
+
+.sidebar ul li a:hover , .sidebar ul li a.active{
+    text-decoration: none;
+    color: #545504;
+    font-size: 30px;
+    font-weight: bold;
+    transition: linear 0.02s;
+    transform: ease;
+}
+.sidebars ul{
+    padding-top: 10px;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#FFD7D1,#FF9585);
+    background: -webkit-linear-gradient(#FFD7D1,#FF9585);
+    background: -o-linear-gradient(#FFD7D1,#FF9585);
+    background: -moz-linear-gradient(#FFD7D1,#FF9585);
+    font-size: 20px;
+    padding-top: 28px;
+    padding-left: 28px;
+    margin-top: 20px;
+}
